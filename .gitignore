@@ -1,0 +1,17 @@
+# 1. Hide everything by default
+/*
+
+# 2. Allow only the "Portfolio" files
+!README.md
+!PUBLIC_STATUS.md
+!.gitignore
+
+# 3. Explicitly ignore everything else (safety redundancy)
+vault/
+memory/
+temp/
+Archive/
+Production/
+Scripts/
+*.md
+google_creds.json
