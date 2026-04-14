@@ -1,17 +1,13 @@
-# 1. Hide everything by default
+# 1. LOCKDOWN: IGNORE ABSOLUTELY EVERYTHING
 /*
 
-# 2. Allow only the "Portfolio" files
+# 2. GLOBAL BLOCKS (Catch-alls before the whitelist)
+*.md
+__pycache__/
+*.pyc
+
+# 3. THE EXCLUSIVE WHITELIST (These are allowed 
+through)
 !README.md
 !PUBLIC_STATUS.md
 !.gitignore
-
-# 3. Explicitly ignore everything else (safety redundancy)
-vault/
-memory/
-temp/
-Archive/
-Production/
-Scripts/
-*.md
-google_creds.json
