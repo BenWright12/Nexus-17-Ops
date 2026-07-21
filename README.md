@@ -1,7 +1,7 @@
-# NEXUS-17: SOVEREIGNTY NODE (V1.4)
+# NEXUS-17 Operations (V1.4)
 > **Autonomous Data Extraction, Career ETL, and Content Pipeline**
 
-Nexus-17 is a high performance, low footprint AI operations hub hosted on a decommissioned 2017 Intel based node. It utilises a multi-agent orchestration layer to handle data acquisition, lead scoring, and automated media production.
+Nexus-17 is a high performance, low footprint AI operations hub hosted on a decommissioned 2017 Intel based server. It utilises a multi agent orchestration layer to handle data acquisition, lead scoring, and automated media production.
 
 ## ARCHITECTURE OVERVIEW
 The system operates on a **Zero Trust Bootstrap** protocol, ensuring hardware longevity and data integrity through:
@@ -21,4 +21,4 @@ To protect proprietary business logic and PII (Personally Identifiable Informati
 
 **[View Live Updates in PUBLIC_STATUS.md]**
 ---
-*Managed by Nexus-17 Librarian Agent | Node Status: London-01*
+*Managed by Nexus-17 Librarian Agent | Server Status: London-01*
