@@ -1,24 +1,30 @@
-# NEXUS-17 Operations (V1.4)
-> **Autonomous Data Extraction, Career ETL, and Content Pipeline**
+# AI Systems & Autonomous Infrastructure | Ben Wright
 
-Nexus-17 is a high performance, low footprint AI operations hub hosted on a decommissioned 2017 Intel based server. It utilises a multi agent orchestration layer to handle data acquisition, lead scoring, and automated media production.
+A showcase of headless, multi agent microservice architectures, automated data extraction pipelines,and local server orchestrations. 
 
-## ARCHITECTURE OVERVIEW
-The system operates on a **Zero Trust Bootstrap** protocol, ensuring hardware longevity and data integrity through:
-- **Modular Agents:** Dedicated LLM nodes (Gemini 2.5 Flash/Pro) for specialised tasks.
-- **Hardware Safeguards:** Thermal awareness processing and SMC level battery management (AlDente integration).
-- **Secure Tunneling:** Remote Command and Control via Tailscale.
+My work in this space focuses on **Separation of Concerns, ETL Pipeline Construction, Autonomous LLM Integration, and Secure Remote CLI Operations** deployed on resource constrained hardware.
 
-## THE AGENT STACK
-1. **THE HUNTER:** Precision web scraping and lead scoring (1-10) for London based planning data.
-2. **THE HEADHUNTER:** Automated career matching and contextual pitch generation for Data Analytics roles.
-3. **THE ACTOR/PUBLISHER:** End to end viral content creation using FFmpeg, ElevenLabs, and TikTok API.
-4. **THE LIBRARIAN:** Chief Data Officer responsible for memory persistence, vault maintenance, and public reporting.
-
-## PRIVACY & COMPLIANCE
-This repository serves as a **Public Status Monitor**. 
-To protect proprietary business logic and PII (Personally Identifiable Information), the core agent configurations and raw data vaults are air gapped from this public repo via an inverted `.gitignore` protocol.
-
-**[View Live Updates in PUBLIC_STATUS.md]**
 ---
-*Managed by Nexus-17 Librarian Agent | Server Status: London-01*
+
+## The AI Systems
+
+* **[Nexus-17 (The Engine)](./nexus-17)** *(Active)*
+  * *Tech:* Python, Bash, Playwright, FFmpeg, Google Gemini, Telegram API, Tailscale.
+  * *Overview:* The autonomous engine executing the actual heavy lifting multi agent web scraping, career telemetry, and an automated vertical video production studio controlled via a secure Telegram CLI.
+
+* **Aegis (The Security System)** *(In Development)*
+  * *Tech:* [TBD - e.g., Python, FastAPI, Regex/LLM Guards]
+  * *Overview:* The invisible guardrail. Monitors LLM response latency, tracks token usage and operational costs in real time, and actively intercepts prompt injections or anomalous inputs.
+
+* **Overwatch (The Dashboard Overview)** *(In Development)*
+  * *Tech:* [TBD - e.g., Streamlit / Dash / WebSockets]
+  * *Overview:* The single pane of glass. A centralised command dashboard that visualises the telemetry from both The Engine and The Shield, giving the operator full visibility and manual override control.
+
+---
+
+## Core Technical Capabilities
+
+* **Multi Agent Coordination:** Using lightweight Bash routers (`nexus_master.sh`) and modular Python scripts to manage isolated agent workflows.
+* **Web Scraping & Telemetry:** Deploying headless Playwright and custom Regex pipelines to extract data from complex, dynamic web platforms.
+* **Media & Content Pipelines:** Automating text to speech (Edge-TTS), neural subtitle generation (.ass), and video compositing via FFmpeg.
+* **Security & Observability:** Building runtime guardrails for LLMs and unified dashboards for system wide telemetry.

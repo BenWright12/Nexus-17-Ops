@@ -1,0 +1,33 @@
+# [ NEXUS-17 - GIT IGNORE PROTOCOL ]
+
+# 1. System Credentials & API Keys (YOUR REAL FILES)
+SOCIALS.md
+MY_CREDENTIALS.md
+nexus-17-jobhunter-creds.json
+*.env
+*.json
+# (We allow the example files through so recruiters can see them)
+!careers_example.json
+!leads_example.json
+!SOCIALS_EXAMPLE.md
+
+# 2. Local Data Vault (Keeps the directory structure, ignores the data)
+vault/*.json
+vault/pending/*.json
+memory/
+temp/
+PUBLIC_STATUS.md
+
+# 3. Media & Rendered Outputs
+Media/Backgroundhooks/*.mp4
+READY_TO_POST/
+PITCHES/
+
+# 4. Python Cache & Bytecode
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 5. OS Specific
+.DS_Store
+Thumbs.db
